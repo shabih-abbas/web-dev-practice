@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lilita+One&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #219C90;
+  font-family: 'Comfortaa', sans-serif;
+}
+h1 {
+  font-family: 'Lilita One', sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 4em;
+  margin: 25px 10px;
+  text-align: center;
+}
+#greeting{
+  font-size: 2.5em;
+  margin: 40px 0;
+  color: #EE4E4E;
+  text-shadow: 1px 2px #004040;
+}
+#container{
+  background-color: #FFC700;
+  width: 50%;
+  min-width: 400px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 15px;
+  box-shadow: 2px 5px 5px #004040;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 25px 10px;
+}
+#container label{
+  color: #004040;
+  font-size: 1.5em;
+}
+#text-input{
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  font-family: 'Comfortaa', sans-serif;
+  padding: 5px;
+}
+#text-input:focus,#text-input:hover{
+  outline: 3px solid #004040;
+}
+#check-btn{
+  background-color: #EE4E4E;
+  font-size: 1em;
+  color: white;
+  font-family: 'Comfortaa', sans-serif;
+  width: 15%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+#check-btn:active, #check-btn:hover,#check-btn:focus{
+  outline: 3px solid #004040;
+}
+#explain{
+  background-color: #EE4E4E;
+  width: 50%;
+  min-width: 400px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 15px;
+  padding: 10px;
+}
+#explain h2{
+  color: white;
+  margin: 10px 0;
+}
+#result{
+  color: #EE4E4E;
+  display: none;
+  font-size: 1.5em;
+  text-align: center;
+}
+
