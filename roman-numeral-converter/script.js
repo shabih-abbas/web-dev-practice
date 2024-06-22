@@ -31,7 +31,7 @@ converter.addEventListener('submit',(e)=>{
   e.preventDefault();
   output.classList.remove('alert');
   output.classList.remove('result');
-  const number=parseInt(input.value);
+  const number=parseInt(input.value.trim(), 10);
   if(!input.value||isNaN(number)) {
     output.classList.add('alert');
     output.textContent='Please enter a valid number'
