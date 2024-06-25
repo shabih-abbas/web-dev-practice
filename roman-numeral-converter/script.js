@@ -53,10 +53,5 @@ converter.addEventListener('submit',(e)=>{
     input.value='';
   }
 })
-// converter.addEventListener('focusout', ()=>{
-//   input.value='';
-//   output.textContent='';
-//   output.classList.remove('alert');
-//   output.classList.remove('result');
-// })
+
 
