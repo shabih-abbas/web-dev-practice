@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  background-color: #DC5F00;
+  font-family: Mulish, sans-serif;
+}
+h1{
+  font-size: 2em;
+  font-weight: 1000;
+  text-align: center;
+  color: #EEEEEE;
+  margin: 25px 0;
+}
+#greeting{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+#phone{
+  background-color: #373A40;
+  width: 250px;
+  height: 450px;
+  border-radius: 20px;
+  margin: 40px auto;
+  padding: 30px 10px 10px;
+}
+#camera{
+  background-color: #EEEEEE;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: 0 auto 10px;
+}
+#screen{
+  background-color: #686D76;
+  width: 100%;
+  height: 350px;
+  padding: 10px;
+  overflow: auto;
+  position: relative;
+}
+dialog{
+    position: absolute;
+    top: -100px;
+    width: 100%;
+    border-radius: 5px;
+    color: #FF4C4C;
+    background-color: #EEEEEE;
+    padding: 10px;
+    transition: top 1s;
+    font-size: 1em;
+    border: none;
+}
+.show{
+    top: 0px;
+}
+#screen *{
+  margin: 10px 0;
+  font-size: 1em;
+  text-align: center;
+}
+#screen > p{
+  color: #EEEEEE;
+}
+#screen > input{
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  color: #000;
+  
+}
+#results-div > .invalid{
+  color: #FF4C4C;
+  font-size: 1.2em;
+}
+#results-div > .valid{
+  color: #4CAF50;
+  font-size: 1.2em;
+}
+button{
+  display: inline-block;
+  font-size: 1em;
+  width: 40%;
+  padding: 5px;
+  margin: 5px 10px;
+  border: 2px outset #EEEEEE;
+  background-image: linear-gradient(to bottom, #EEEEEE, 75% , #686D76);
+}
+
+@media only screen and (min-height: 700px){
+  h1{
+    margin: 50px 0;
+}
+}
+@media only screen and (min-width: 550px){
+    h1{
+      font-size: 3em;
+  }
+}
+  
