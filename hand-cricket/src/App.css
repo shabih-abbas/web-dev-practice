@@ -1,0 +1,12 @@
+.logo{
+  width: 10rem;
+  height: 20vh;
+  vertical-align: top;
+}
+.heading{
+  display: inline-block;
+  
+}
+.header{
+  margin: auto;
+}
