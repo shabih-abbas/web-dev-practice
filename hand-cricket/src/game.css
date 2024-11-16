@@ -1,28 +1,52 @@
+.main-game{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
 .field{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 80vw;
-    height: 30vh;
+    aspect-ratio: 1/.5;
+    max-height: 300px;
+    background-color: #f5deb3;
+    border-radius: 1rem;
+    color: #8b4513;
+    margin: 1rem auto;
 }
 .pitch{
     width: 40%;
     height: 80%;
-    font-size: 2rem;
-    text-align: center;
-    border: 1rem solid;
-    border-radius: .2rem;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .5rem solid #8b4513;
+    border-radius: 1rem;
 }
 .crease{
     width: 1rem;
     height: 100%;
-    background-color: black;
+    background-color: #8b4513;
 }
-.score{
-    font-size: 2rem;
-}
+
 .score span{
     display: inline-block;
     padding: .5rem;
     border: .5rem solid;
+    min-width: 5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+.btn-container{
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+}
+.reset-btn{
+    margin: 1rem;
+    color:#8b4513;
 }

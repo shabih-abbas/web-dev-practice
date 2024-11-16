@@ -1,12 +1,16 @@
 .logo{
   width: 10rem;
-  height: 20vh;
+  aspect-ratio: 1/2;
+  max-height: 200px;
   vertical-align: top;
 }
 .heading{
   display: inline-block;
   
 }
-.header{
-  margin: auto;
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

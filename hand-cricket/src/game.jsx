@@ -28,22 +28,22 @@ export default function Game(){
         setMove(parseInt(e.target.value));
         setCompMove(getMove());
     }
-    const getMove=()=> Math.floor(Math.random()*6)
+    const getMove=()=> Math.floor(Math.random()*7)
     
     return (
-        <div>
+        <div className="main-game">
             <div className='field'>
                 <div className="pitch">
-                    {move!=null? hands[move].emoji: 'pick a move'}
+                    {move!=null? hands[move].emoji: 'pick your hand'}
                 </div>
                 <div className="crease"></div>
                 <div className="pitch">
-                    {compMove!=null? hands[compMove].emoji: 'I will respond'}
+                    {compMove!=null? hands[compMove].emoji: 'let me guess'}
                 </div>
             </div>
             <div className="score">Your score: <span>{score}</span></div>
             {status=='played'&& <button onClick={reset} className="reset-btn">Play Again</button>}
-            <div>{hands.map((hand, index)=> <button key={hand.score} value={index} onClick={handleClick} disabled={status=='played'}>{hand.emoji}</button>)}</div>
+            <div className="btn-container">{hands.map((hand, index)=> <button className="move-btn" key={hand.score} value={index} onClick={handleClick} disabled={status=='played'}>{hand.emoji}</button>)}</div>
         </div>
     )
 }
