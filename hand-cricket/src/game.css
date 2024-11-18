@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 .field{
     display: flex;
@@ -19,12 +19,13 @@
 .pitch{
     width: 40%;
     height: 80%;
-    font-size: 4rem;
+    font-size: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border: .5rem solid #8b4513;
     border-radius: 1rem;
+    text-align: center;
 }
 .crease{
     width: 1rem;
