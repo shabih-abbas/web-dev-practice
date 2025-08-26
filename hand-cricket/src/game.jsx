@@ -7,8 +7,7 @@ export default function Game(){
     const [score, setScore] = useState(0);
     const [move, setMove] = useState(null);
     const [compMove, setCompMove] = useState(null);
-    useEffect(()=>{
-        if(move!=null&&compMove!=null){
+    if(move!=null&&compMove!=null){
             if(move==compMove){
                 setStatus('played')
             }
@@ -16,8 +15,6 @@ export default function Game(){
                 setScore((prev)=>prev+hands[move].score)
             }
         }
-        
-    },[move,compMove])
     const reset=()=>{
         setScore(0);
         setCompMove(null);
