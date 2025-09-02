@@ -1,6 +1,6 @@
 # 🌐 Web Development Portfolio
 
-A collection of my web development projects, including required projects for the **freeCodeCamp JavaScript Algorithms and Data Structures Certification**.  
+A collection of my web development projects, including required projects for the [freeCodeCamp JavaScript Algorithms and Data Structures Certification](https://www.freecodecamp.org/certification/shabih-abbas/javascript-algorithms-and-data-structures-v8)📜.  
 All projects are deployed on **Netlify** for live preview.  
 
 ---
